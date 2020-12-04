@@ -1,0 +1,42 @@
+.flex{
+    display: flex;
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.btn{
+    padding: 1rem 2.5rem !important; 
+    font-weight: 800 !important;
+    border: 2px solid transparent !important;
+    cursor: pointer !important;
+    outline: none !important;
+    text-transform: uppercase !important;
+    transition: all .3s ease !important; 
+}
+.btn-primary{
+    background-color: #3DCFD3 !important;
+    color: var(--dark) !important;
+}
+.btn-primary:hover{
+    background: transparent !important;
+    border-color: #3DCFD3!important;
+    color: #3DCFD3 !important;
+}
+.btn-secondary{
+    background: transparent !important;
+    color: #3DCFD3 !important; 
+    border-color: #3DCFD3 !important;
+}
+.btn-secondary:hover{
+    background: #3DCFD3 !important;
+    color: var(--dark) !important;
+}
+.flex-1{
+    flex: 1;
+}
+.justify-center{
+    justify-content: center;
+}
